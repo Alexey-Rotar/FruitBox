@@ -50,7 +50,7 @@ public class Box<T extends Fruit>{
      * Перемещение содержимого текущего ящика (другой вариант метода)
      * @param box ящик, в который перемещается
      */
-    public void move2(Box<? super T> box){
+    public void move2(Box<? super T> box){ // работает и так тоже: Box<T> box
         if (this.getClass().getTypeName().equals(box.getClass().getTypeName())){
             for (T f: fList){
                 box.addFruit(f);
