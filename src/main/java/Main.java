@@ -43,7 +43,7 @@ public class Main
 		System.out.println(box2.getWeight());		// вес второго ящика (апельсинки)
 		System.out.println(box3.getWeight());		// вес третьего ящика (апельсинки)
 		System.out.println(box1.compare(box2)); 	// сравнение веса ящиков (с яблоками и апельсинами)
-		box3.move(box2);							// пересыпание из третьего ящика во второй
+		box3.move2(box2);							// пересыпание из третьего ящика во второй
 		System.out.println(box1.getWeight()); 		// вес первого ящика (яблоки)
 		System.out.println(box2.getWeight());		// вес второго ящика (апельсинки)
 		System.out.println(box3.getWeight());		// вес третьего ящика (апельсинки)
